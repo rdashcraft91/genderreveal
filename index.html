@@ -4,7 +4,21 @@
     <title>Title of the document</title>
   </head>
   <body>
-    <video controls="controls" width="800" height="600" 
-    name="Video Name" src="../../../genderreveal 1.mov"></video>
+    <div class="embeddedVideo">
+      <object classid='clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B'
+          width="600" height="400"
+          codebase='http://www.apple.com/qtactivex/qtplugin.cab'>
+          <param name='src' value="assets/videos/movie.mov">
+          <param name='autoplay' value="false">
+          <param name='controller' value="true">
+          <param name='loop' value="false">
+           
+          <embed src="../../../genderreveal 1.mov" width="600" height="400"
+          scale="tofit" autoplay="false"
+          controller="true" loop="false" bgcolor="#000000"
+          pluginspage='http://www.apple.com/quicktime/download/'>
+          </embed>
+      </object>     
+  </div>
   </body>
 </html>
